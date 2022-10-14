@@ -4,7 +4,8 @@ SET QUOTED_IDENTIFIER ON
 GO
 CREATE TABLE [dbo].[TbTest1](
 	[a] [int] NOT NULL,
-	[b] [char](10) COLLATE SQL_Latin1_General_CP1_CI_AS NULL
+	[b] [char](10) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+	[c] [char](15) COLLATE SQL_Latin1_General_CP1_CI_AS NULL
 )
 
 GO
